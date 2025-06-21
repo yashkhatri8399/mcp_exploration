@@ -8,3 +8,7 @@ model= ChatGroq(
     max_tokens=4096,
     temperature=0.1,
     top_p=0.9,)
+
+model.invoke(
+    "What is the capital of France? Please answer in one sentence.",
+)
